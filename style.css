@@ -1,0 +1,125 @@
+/* unvisited link */
+a:link {
+    color: #333333;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  /* visited link */
+a:visited {
+    color: #333333;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: #333333;
+}
+  
+  /* selected link */
+a:active {
+    color: #333333;
+}
+
+.navibar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nb-item{
+    margin-right: 20px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+}
+
+.search_bar{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin-top: 100px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.gbqfba {
+    background-color: #f8f9fa;
+    border: 1px
+    solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.adv{
+    color: red;
+    font-size: 22px;
+    margin: 25px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line{
+    border-bottom: 2px solid #ebebeb85;
+}
+.h2-adv{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mrg{
+    margin:50px;
+}
+
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 35px;
+}
+.left{
+    width: 200px;
+}
+
+.right{
+    width: 385px;
+}
+.p-advanced{
+    font-size: 13px;
+    vertical-align: middle;
+}
+.btn-adv{
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
